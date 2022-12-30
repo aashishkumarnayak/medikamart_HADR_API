@@ -9,7 +9,7 @@ const app = express();
 const doctorRoutes = require('./api/routes/doctors');
 const hospitalRoutes = require('./api/routes/hospitals');
 
-mongoose.connect('mongodb+srv://node-shop:' + process.env.MONGO_ATLAS_PASSWORD + '@node-shop.wpytcfi.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://medikamart:medikamart1234@ratingandreviewsapi.2vc0moc.mongodb.net/RatingAndReviewsAPI?retryWrites=true&w=majority');
 
 mongoose.Promise = global.Promise;
 
